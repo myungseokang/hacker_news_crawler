@@ -12,7 +12,7 @@ const puppeteer = require('puppeteer');
   
   let data = '# Hacker News\n\n';
   data += rows.join('\n');
-  fs.writeFileSync('./generated/crawl.txt', data, 'utf8');
+  fs.writeFileSync('./generated/crawl.md', data, 'utf8');
 
   await browser.close();
 })();
