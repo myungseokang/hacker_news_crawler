@@ -1,0 +1,15 @@
+{
+  "name": "news_ycombinator_crawler",
+  "version": "1.0.0",
+  "description": "A Crawler for news.ycombinator.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leop0ld",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "puppeteer": "^1.9.0"
+  }
+}
